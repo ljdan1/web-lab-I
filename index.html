@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Our first html page</title>
+</head>
+<body>
+<h1>Heading One</h1>
+<h2>Heading Two</h2>
+<h3>Heading Three</h3>
+<h4>Heading Four</h4>
+<h5>Heading Five</h5>
+<h6>Heading Six</h6>
+<br>
+<hr>
+<p>This is paragraph</p>
+<center>Centered</center>
+<br>
+<b>Bold</b>
+<br>
+<i>italic</i>
+<br>
+<em>Emphasis</em>
+<br>
+<u>Underlined</u>
+<br>
+<p>The following word uses a 
+<strike>strikethrough</strike> 
+typeface.</p>
+<p>ax<sup>2</sup> + bx + c=0</p>
+<p>H<sub>2</sub></p>
+<p><img src="../dbuicon.png"></p>
+<p><a href="www.dbu.edu.et">DBU</a></p>
+<p>Character entity</p>
+<p>Copyright &nbsp;&copy;</p>
+<p>Registerd trade mark &nbsp;&reg;</p>
+<p>Yen &nbsp;&yen;</p>
+<p>Dollar &nbsp;&dollar;</p>
+<p>Apostrophe &nbsp;&apos;</p>
+
+<p>HTML </p>
+<table border="1" bgcolor="cyan" cellpadding="2" cellspacing="3">
+	<tr>
+		<th colspan="3">SE students</th>
+	</tr>
+	<tr>
+		<th>No.</th>
+		<th>Name</th>
+		<th>ID</th>
+	</tr>
+	<tr>
+		<th>1</th>
+		<th>ABC</th>
+		<th>123</th>
+	</tr>
+	<tr>
+		<th>2</th>
+		<th>DEF</th>
+		<th>456</th>
+	</tr>
+	</table>
+	<hr>
+<p>Registration form</p>
+<form action="index.html" name="registration_from" method="POST" enctype="multipart/form-data">
+Full name: <input type="text" name="fname" placeholder="Enter your full name" required autofocus autocomplete="off">
+<br>
+Email:<input type="Email" name="email" required>
+<br>
+DoB:<input type="date" name="dob"  required >
+Country:
+<select name="country"  multiple>
+<option value="">Please select</option>
+<option value="Ethiopia">Ethiopia</option>
+<option value="Kenya">Kenya</option>
+<option value="Sudan">Sudan</option>
+<option value="Uganda">Uganda</option>
+</select>
+<br>
+Gender: <input type="radio" name="gender" value="female">female
+<input type="radio" name="gender" value="male">male
+<br>
+Hobbies:
+<input type="checkbox" name="reading">reading
+<input type="checkbox" name="internet">Browse internet
+<input type="checkbox" name="hiking">Hiking
+<br>
+Profile pic:
+<input type="file" name="profile" accept="image/*">
+<br>
+<input type="submit" name="sub" value="Signup">
+<input type="reset" name="rst" value="Reset">
+</form>
+	
+</body>
+</html>
